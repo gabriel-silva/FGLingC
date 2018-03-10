@@ -1,5 +1,5 @@
 //
-//  main.c
+//  ativ2.c
 //  FGLingC
 //
 //  Created by Gabriel Neves on 10/03/2018.
@@ -7,9 +7,3 @@
 //
 
 #include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
-}
