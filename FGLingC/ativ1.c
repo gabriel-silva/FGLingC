@@ -1,7 +1,7 @@
 
 /*
  
- ativ2.c
+ ativ1.c
  FGLingC
  
  Created by Gabriel Neves on 10/03/2018.
@@ -9,6 +9,7 @@
  
  
  Receber um nome no teclado e imprimi-lo dez vezes, cada nome em uma linha.
+ 
  */
 
 
