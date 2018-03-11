@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
     printf("Informe uma frase com 40 caracteres: ");
     fgets(frase, 60, stdin);
     
-    while(strlen(frase) > 40){
+    while((strlen(frase)-1) > 40){
         printf("Entrada Invalida, Informe novamente: ");
         fgets(frase, 60, stdin);
     }
