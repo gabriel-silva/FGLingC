@@ -6,10 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		17507BA62054BF0600970FE6 /* ativ10.c in Sources */ = {isa = PBXBuildFile; fileRef = 17507BA52054BF0600970FE6 /* ativ10.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		17507B6C2054753D00970FE6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,16 +20,16 @@
 
 /* Begin PBXFileReference section */
 		17507B6E2054753D00970FE6 /* FGLingC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FGLingC; sourceTree = BUILT_PRODUCTS_DIR; };
-		17507B712054753D00970FE6 /* ativ1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ1.c; sourceTree = "<group>"; };
-		17507B9220547B7C00970FE6 /* ativ2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ2.c; sourceTree = "<group>"; };
-		17507B9420547FEF00970FE6 /* ativ3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ3.c; sourceTree = "<group>"; };
-		17507B9620548B8000970FE6 /* ativ4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ4.c; sourceTree = "<group>"; };
-		17507B9820548EBD00970FE6 /* ativ5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ5.c; sourceTree = "<group>"; };
-		17507B9A2054B4FA00970FE6 /* ativ6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ6.c; sourceTree = "<group>"; };
-		17507B9C2054B75300970FE6 /* ativ7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ7.c; sourceTree = "<group>"; };
-		17507B9F2054BA0B00970FE6 /* ativ8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ8.c; sourceTree = "<group>"; };
-		17507BA32054BC5F00970FE6 /* ativ9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ9.c; sourceTree = "<group>"; };
-		17507BA52054BF0600970FE6 /* ativ10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ10.c; sourceTree = "<group>"; };
+		17507BD02054C12C00970FE6 /* ativ2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ2.c; sourceTree = "<group>"; };
+		17507BD12054C12C00970FE6 /* ativ1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ1.c; sourceTree = "<group>"; };
+		17507BD22054C12C00970FE6 /* ativ3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ3.c; sourceTree = "<group>"; };
+		17507BD32054C12C00970FE6 /* ativ6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ6.c; sourceTree = "<group>"; };
+		17507BD42054C12C00970FE6 /* ativ8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ8.c; sourceTree = "<group>"; };
+		17507BD52054C12C00970FE6 /* ativ7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ7.c; sourceTree = "<group>"; };
+		17507BD62054C12D00970FE6 /* ativ9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ9.c; sourceTree = "<group>"; };
+		17507BD72054C12D00970FE6 /* ativ5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ5.c; sourceTree = "<group>"; };
+		17507BD82054C12D00970FE6 /* ativ4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ4.c; sourceTree = "<group>"; };
+		17507BD92054C12D00970FE6 /* ativ10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ10.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,24 +62,24 @@
 		17507B702054753D00970FE6 /* FGLingC */ = {
 			isa = PBXGroup;
 			children = (
-				17507B9E2054B76200970FE6 /* Lista1 */,
+				17507BE52054C14B00970FE6 /* Lista1 */,
 			);
 			path = FGLingC;
 			sourceTree = "<group>";
 		};
-		17507B9E2054B76200970FE6 /* Lista1 */ = {
+		17507BE52054C14B00970FE6 /* Lista1 */ = {
 			isa = PBXGroup;
 			children = (
-				17507B712054753D00970FE6 /* ativ1.c */,
-				17507B9220547B7C00970FE6 /* ativ2.c */,
-				17507B9420547FEF00970FE6 /* ativ3.c */,
-				17507B9620548B8000970FE6 /* ativ4.c */,
-				17507B9820548EBD00970FE6 /* ativ5.c */,
-				17507B9A2054B4FA00970FE6 /* ativ6.c */,
-				17507B9C2054B75300970FE6 /* ativ7.c */,
-				17507B9F2054BA0B00970FE6 /* ativ8.c */,
-				17507BA32054BC5F00970FE6 /* ativ9.c */,
-				17507BA52054BF0600970FE6 /* ativ10.c */,
+				17507BD12054C12C00970FE6 /* ativ1.c */,
+				17507BD02054C12C00970FE6 /* ativ2.c */,
+				17507BD22054C12C00970FE6 /* ativ3.c */,
+				17507BD82054C12D00970FE6 /* ativ4.c */,
+				17507BD72054C12D00970FE6 /* ativ5.c */,
+				17507BD32054C12C00970FE6 /* ativ6.c */,
+				17507BD52054C12C00970FE6 /* ativ7.c */,
+				17507BD42054C12C00970FE6 /* ativ8.c */,
+				17507BD62054C12D00970FE6 /* ativ9.c */,
+				17507BD92054C12D00970FE6 /* ativ10.c */,
 			);
 			name = Lista1;
 			sourceTree = "<group>";
@@ -145,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17507BA62054BF0600970FE6 /* ativ10.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
