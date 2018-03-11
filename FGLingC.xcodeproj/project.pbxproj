@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17507BA42054BC5F00970FE6 /* ativ9.c in Sources */ = {isa = PBXBuildFile; fileRef = 17507BA32054BC5F00970FE6 /* ativ9.c */; };
+		17507BA62054BF0600970FE6 /* ativ10.c in Sources */ = {isa = PBXBuildFile; fileRef = 17507BA52054BF0600970FE6 /* ativ10.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +33,7 @@
 		17507B9C2054B75300970FE6 /* ativ7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ7.c; sourceTree = "<group>"; };
 		17507B9F2054BA0B00970FE6 /* ativ8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ8.c; sourceTree = "<group>"; };
 		17507BA32054BC5F00970FE6 /* ativ9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ9.c; sourceTree = "<group>"; };
+		17507BA52054BF0600970FE6 /* ativ10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativ10.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 				17507B9C2054B75300970FE6 /* ativ7.c */,
 				17507B9F2054BA0B00970FE6 /* ativ8.c */,
 				17507BA32054BC5F00970FE6 /* ativ9.c */,
+				17507BA52054BF0600970FE6 /* ativ10.c */,
 			);
 			name = Lista1;
 			sourceTree = "<group>";
@@ -143,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17507BA42054BC5F00970FE6 /* ativ9.c in Sources */,
+				17507BA62054BF0600970FE6 /* ativ10.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
