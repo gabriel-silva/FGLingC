@@ -29,7 +29,7 @@ int main(int argc, const char * argv[]) {
     }else if(strncmp(estado, "MG", 2) == 0){
         printf("Mineiro\n");
     }else{
-        printf("erro, informe novamente.");
+        printf("Outro estado.");
     }
     
     return 0;
