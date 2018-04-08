@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		175BD026207A902B0063A9D1 /* ativPratica0203.c in Sources */ = {isa = PBXBuildFile; fileRef = 175BD025207A902B0063A9D1 /* ativPratica0203.c */; };
+		175BD029207A94AC0063A9D1 /* ativPratica0204.c in Sources */ = {isa = PBXBuildFile; fileRef = 175BD028207A94AC0063A9D1 /* ativPratica0204.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +35,7 @@
 		17507BD82054C12D00970FE6 /* ativ4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ4.c; sourceTree = "<group>"; };
 		17507BD92054C12D00970FE6 /* ativ10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ10.c; sourceTree = "<group>"; };
 		175BD025207A902B0063A9D1 /* ativPratica0203.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativPratica0203.c; sourceTree = "<group>"; };
+		175BD028207A94AC0063A9D1 /* ativPratica0204.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativPratica0204.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				175BD025207A902B0063A9D1 /* ativPratica0203.c */,
+				175BD028207A94AC0063A9D1 /* ativPratica0204.c */,
 			);
 			name = AtivadadePratica02;
 			sourceTree = "<group>";
@@ -155,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				175BD026207A902B0063A9D1 /* ativPratica0203.c in Sources */,
+				175BD029207A94AC0063A9D1 /* ativPratica0204.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
