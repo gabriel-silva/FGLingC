@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17507BE72054C93300970FE6 /* ativ5.c in Sources */ = {isa = PBXBuildFile; fileRef = 17507BD72054C12D00970FE6 /* ativ5.c */; };
+		175BD026207A902B0063A9D1 /* ativPratica0203.c in Sources */ = {isa = PBXBuildFile; fileRef = 175BD025207A902B0063A9D1 /* ativPratica0203.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +34,7 @@
 		17507BD72054C12D00970FE6 /* ativ5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ5.c; sourceTree = "<group>"; };
 		17507BD82054C12D00970FE6 /* ativ4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ4.c; sourceTree = "<group>"; };
 		17507BD92054C12D00970FE6 /* ativ10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ativ10.c; sourceTree = "<group>"; };
+		175BD025207A902B0063A9D1 /* ativPratica0203.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ativPratica0203.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		17507B702054753D00970FE6 /* FGLingC */ = {
 			isa = PBXGroup;
 			children = (
+				175BD024207A8FEC0063A9D1 /* AtivadadePratica02 */,
 				17507BE52054C14B00970FE6 /* Lista1 */,
 			);
 			path = FGLingC;
@@ -86,6 +88,14 @@
 				17507BD92054C12D00970FE6 /* ativ10.c */,
 			);
 			name = Lista1;
+			sourceTree = "<group>";
+		};
+		175BD024207A8FEC0063A9D1 /* AtivadadePratica02 */ = {
+			isa = PBXGroup;
+			children = (
+				175BD025207A902B0063A9D1 /* ativPratica0203.c */,
+			);
+			name = AtivadadePratica02;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,7 +124,7 @@
 		17507B662054753D00970FE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Gabriel Neves";
 				TargetAttributes = {
 					17507B6D2054753D00970FE6 = {
@@ -145,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17507BE72054C93300970FE6 /* ativ5.c in Sources */,
+				175BD026207A902B0063A9D1 /* ativPratica0203.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +176,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -173,6 +184,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -221,6 +233,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -228,6 +241,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
